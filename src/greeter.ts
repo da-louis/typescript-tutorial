@@ -1,4 +1,4 @@
-class Student {
+class Student implements Person {
   fullName: string;
   constructor(
     public firstName: string,
